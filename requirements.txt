@@ -1,0 +1,6 @@
+uvicorn==0.22.0
+fastapi==0.95.2
+httpx==0.24.1
+opencv-python==4.7.0.72
+supervision==0.8.0
+ultralytics==8.0.107
