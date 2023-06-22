@@ -20,7 +20,7 @@ from PIL import Image
 import supervision as sv
 from ultralytics import YOLO
 
-from Plugins.yolov_plugin.yolov_definitions import YolovSegment_Input, YolovSegment_Response
+from Plugins.yolov_plugin.yolov_plugin import YolovSegment_Input, YolovSegment_Response
 
 @log_decorator
 async def integration_YolovSegment_Post(input: YolovSegment_Input):
